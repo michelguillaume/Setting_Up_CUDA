@@ -1,6 +1,8 @@
 #ifndef MAP_PARSER_H
 #define MAP_PARSER_H
 
+#include <stdbool.h>
+
 #ifdef __cplusplus
 extern "C" {
 #endif

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.2)
 
-project(setting_up_cpu VERSION 1.0 LANGUAGES C)
+project(SettingUpCPU VERSION 1.0 LANGUAGES C)
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug)
@@ -12,4 +12,4 @@ set(SOURCES
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-target_link_libraries(${PROJECT_NAME} PRIVATE setting_up_utils)
+target_link_libraries(${PROJECT_NAME} PRIVATE SettingUpUtils)
